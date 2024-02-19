@@ -1,0 +1,28 @@
+ol{
+    list-style: none;
+    text-align: center;
+    margin: 0;
+}
+body{
+    margin: 0;
+}
+nav{
+    background-color: #ffff00;
+    top: 0;
+    position: sticky;
+}
+ol>li{
+    cursor: pointer;
+    font-size: 20px;
+}
+ol>li:hover{
+    transition: 1s;
+    color: #ffff00;
+    background-color: #ff0000;
+}
+a{
+    text-decoration: none;
+}
+nav .row{
+    --bs-gutter-x:0;
+}
